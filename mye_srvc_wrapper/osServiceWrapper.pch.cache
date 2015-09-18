@@ -1,0 +1,2141 @@
+	<PchDataCache xmlns="urn://codegear_pch_cache" Path="G:\projects\mye_srvc_wrapper\osServiceWrapper.cbproj" Guid="{3E8CB30E-4B78-4A18-86E7-92DEA4A8A542}" CreationTime="1047880468">
+		<Source Path="G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp">
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\vcl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\tchar.h</TLI>
+		</Source>
+		<Header TotalLines="777952" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\vcl.h" Guarded="1" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</IncludedBy>
+		</Header>
+		<Header TotalLines="777938" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h" Guarded="1" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\vcl.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\System.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Types.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Windows.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Messages.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\SysUtils.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Classes.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Controls.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Forms.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Dialogs.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="408016" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\System.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysmac.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\StrHlpr.hpp</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Sysinit.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Classes.hpp</IncludedBy>
+		</Header>
+		<Header TotalLines="406215" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\sysmac.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\System.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdint.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\delayimp.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\basetyps.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="196" Path="e:\program files\embarcadero\rad studio\7.0\include\stdint.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysmac.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="405059" Path="e:\program files\embarcadero\rad studio\7.0\include\delayimp.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysmac.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\windows.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="183717" Path="e:\program files\embarcadero\rad studio\7.0\include\windows.h" Guarded="1" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\delayimp.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\sdkddkver.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\mem.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\excpt.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdarg.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\windef.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winbase.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wingdi.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winuser.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winnls.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wincon.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winver.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winreg.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winnetwk.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stralign.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winsvc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\mcx.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\imm.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\cderr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dde.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ddeml.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dlgs.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\lzexpand.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\mmsystem.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\nb30.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\shellapi.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winperf.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winsock2.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wincrypt.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winefs.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winscard.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winspool.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ole2.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\urlmon.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oleidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\servprov.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propidl.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\commdlg.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\nIcon.h</IncludedBy>
+		</Header>
+		<Header TotalLines="282" Path="e:\program files\embarcadero\rad studio\7.0\include\sdkddkver.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="514" Path="e:\program files\embarcadero\rad studio\7.0\include\mem.h" Guarded="0" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\_str.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="305" Path="e:\program files\embarcadero\rad studio\7.0\include\_stddef.h" Guarded="0" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\mem.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_defs.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_null.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\stdarg.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ctype.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\mbctype.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\_str.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\_loc.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\stdlib.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\search.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\errno.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\assert.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\tchar.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\stddef.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\stdio.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\_lim.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\io.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\time.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="114" Path="e:\program files\embarcadero\rad studio\7.0\include\_defs.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="27" Path="e:\program files\embarcadero\rad studio\7.0\include\_null.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="183" Path="e:\program files\embarcadero\rad studio\7.0\include\excpt.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="225" Path="e:\program files\embarcadero\rad studio\7.0\include\stdarg.h" Guarded="0" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winuser.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\dstring.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\ustring.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\yvals.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\strsafe.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="23180" Path="e:\program files\embarcadero\rad studio\7.0\include\windef.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="22750" Path="e:\program files\embarcadero\rad studio\7.0\include\winnt.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windef.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ctype.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\specstrings.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\kernelspecs.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\basetsd.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\guiddef.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack4.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack2.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\string.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ktmtypes.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="684" Path="e:\program files\embarcadero\rad studio\7.0\include\ctype.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\mbctype.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="256" Path="e:\program files\embarcadero\rad studio\7.0\include\mbctype.h" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ctype.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="3205" Path="e:\program files\embarcadero\rad studio\7.0\include\specstrings.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\sal_supp.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\specstrings_supp.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\sal.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\specstrings_strict.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\driverspecs.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="66" Path="e:\program files\embarcadero\rad studio\7.0\include\sal_supp.h" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\specstrings.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="88" Path="e:\program files\embarcadero\rad studio\7.0\include\specstrings_supp.h" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\specstrings.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="731" Path="e:\program files\embarcadero\rad studio\7.0\include\sal.h" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\specstrings.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1112" Path="e:\program files\embarcadero\rad studio\7.0\include\specstrings_strict.h" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\specstrings.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="881" Path="e:\program files\embarcadero\rad studio\7.0\include\driverspecs.h" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\specstrings.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\sdv_driverspecs.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="27" Path="e:\program files\embarcadero\rad studio\7.0\include\sdv_driverspecs.h" Guarded="0" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\driverspecs.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="191" Path="e:\program files\embarcadero\rad studio\7.0\include\kernelspecs.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="502" Path="e:\program files\embarcadero\rad studio\7.0\include\basetsd.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1487" Path="e:\program files\embarcadero\rad studio\7.0\include\guiddef.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\string.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\basetyps.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wtypes.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1271" Path="e:\program files\embarcadero\rad studio\7.0\include\string.h" Guarded="0" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\guiddef.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_str.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysset.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\strsafe.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1247" Path="e:\program files\embarcadero\rad studio\7.0\include\_str.h" Guarded="0" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\string.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\locale.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\mem.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\tchar.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\cstring</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="320" Path="e:\program files\embarcadero\rad studio\7.0\include\locale.h" Guarded="0" Level="8">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\_str.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_loc.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="295" Path="e:\program files\embarcadero\rad studio\7.0\include\_loc.h" Guarded="0" Level="9">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\locale.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="36" Path="e:\program files\embarcadero\rad studio\7.0\include\pshpack4.h" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wingdi.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\prsht.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wininet.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\RichEdit.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="39" Path="e:\program files\embarcadero\rad studio\7.0\include\poppack.h" Guarded="0" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wingdi.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winuser.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wintrust.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oleauto.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\prsht.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\CommCtrl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dwmapi.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shellapi.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wininet.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shtypes.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\commdlg.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\RichEdit.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\mmsystem.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winperf.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winioctl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ole2.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shlwapi.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="36" Path="e:\program files\embarcadero\rad studio\7.0\include\pshpack2.h" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wingdi.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winuser.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="36" Path="e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h" Guarded="0" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wintrust.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oleauto.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shtypes.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winperf.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ole2.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shlwapi.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="213" Path="e:\program files\embarcadero\rad studio\7.0\include\ktmtypes.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnt.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="59450" Path="e:\program files\embarcadero\rad studio\7.0\include\winbase.h" Guarded="0" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winerror.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="43979" Path="e:\program files\embarcadero\rad studio\7.0\include\winerror.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winbase.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="6148" Path="e:\program files\embarcadero\rad studio\7.0\include\wingdi.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack1.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack2.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack4.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="36" Path="e:\program files\embarcadero\rad studio\7.0\include\pshpack1.h" Guarded="0" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wingdi.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\CommCtrl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dwmapi.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shellapi.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shtypes.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\commdlg.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\mmsystem.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winioctl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="13370" Path="e:\program files\embarcadero\rad studio\7.0\include\winuser.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdarg.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack2.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\tvout.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="95" Path="e:\program files\embarcadero\rad studio\7.0\include\tvout.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winuser.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="2621" Path="e:\program files\embarcadero\rad studio\7.0\include\winnls.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1089" Path="e:\program files\embarcadero\rad studio\7.0\include\wincon.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="376" Path="e:\program files\embarcadero\rad studio\7.0\include\winver.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\verrsrc.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="162" Path="e:\program files\embarcadero\rad studio\7.0\include\verrsrc.h" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winver.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1473" Path="e:\program files\embarcadero\rad studio\7.0\include\winreg.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\reason.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="123" Path="e:\program files\embarcadero\rad studio\7.0\include\reason.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winreg.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="944" Path="e:\program files\embarcadero\rad studio\7.0\include\winnetwk.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wnnc.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="114" Path="e:\program files\embarcadero\rad studio\7.0\include\wnnc.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winnetwk.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="686" Path="e:\program files\embarcadero\rad studio\7.0\include\stralign.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1526" Path="e:\program files\embarcadero\rad studio\7.0\include\winsvc.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="728" Path="e:\program files\embarcadero\rad studio\7.0\include\mcx.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="739" Path="e:\program files\embarcadero\rad studio\7.0\include\imm.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ime_cmodes.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="25" Path="e:\program files\embarcadero\rad studio\7.0\include\ime_cmodes.h" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\imm.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="448" Path="e:\program files\embarcadero\rad studio\7.0\include\basetyps.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysmac.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\guiddef.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="9341" Path="e:\program files\embarcadero\rad studio\7.0\include\unknwn.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysmac.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wtypes.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysvari.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\msxml.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\comcat.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\windows.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ole2.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="5724" Path="e:\program files\embarcadero\rad studio\7.0\include\rpc.h" Guarded="0" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcdce.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcnsi.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcnterr.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wtypes.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wincodec.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oleidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\servprov.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\urlmon.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\msxml.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ObjectArray.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\structuredquerycondition.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propsys.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shtypes.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shldisp.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\docobj.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\comcat.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcasync.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="3715" Path="e:\program files\embarcadero\rad studio\7.0\include\rpcdce.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcdcep.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1084" Path="e:\program files\embarcadero\rad studio\7.0\include\rpcdcep.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\rpcdce.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="561" Path="e:\program files\embarcadero\rad studio\7.0\include\rpcnsi.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="549" Path="e:\program files\embarcadero\rad studio\7.0\include\rpcnterr.h" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="3790" Path="e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h" Guarded="0" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcnsip.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcsal.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wtypes.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wincodec.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oleidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\servprov.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\urlmon.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\msxml.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ObjectArray.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\structuredquerycondition.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propsys.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shtypes.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shldisp.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\docobj.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\comcat.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="99" Path="e:\program files\embarcadero\rad studio\7.0\include\rpcnsip.h" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="505" Path="e:\program files\embarcadero\rad studio\7.0\include\rpcsal.h" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="5617" Path="e:\program files\embarcadero\rad studio\7.0\include\wtypes.h" Guarded="0" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\guiddef.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysvari.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wincodec.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dwmapi.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shtypes.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winscard.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="33566" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\System.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\dstring.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\wstring.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\ustring.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\systobj.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\systdate.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\syscurr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\syscomp.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysset.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\systvar.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysdyn.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysopen.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysvari.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="2610" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\dstring.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdarg.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\StrHlpr.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="1823" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\StrHlpr.hpp" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\dstring.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\System.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Sysinit.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="896" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Sysinit.hpp" Guarded="1" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\StrHlpr.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\System.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="284" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\wstring.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="328" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\ustring.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdarg.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="674" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\systobj.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="147" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\systdate.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="205" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\syscurr.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="69" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\syscomp.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="1053" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\sysset.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\string.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="361" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\systvar.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="1421" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\sysdyn.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdlib.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="1471" Path="e:\program files\embarcadero\rad studio\7.0\include\stdlib.h" Guarded="0" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysdyn.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\search.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\errno.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\cstdlib</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="256" Path="e:\program files\embarcadero\rad studio\7.0\include\search.h" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\stdlib.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="334" Path="e:\program files\embarcadero\rad studio\7.0\include\errno.h" Guarded="0" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\stdlib.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/compiler/codegear.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="418" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\sysopen.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="22748" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\sysvari.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysclass.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wtypes.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\autoargs.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\autoargs.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="26550" Path="e:\program files\embarcadero\rad studio\7.0\include\oaidl.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysvari.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oleauto.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\msxml.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ObjectArray.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\structuredquerycondition.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\windows.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="21504" Path="e:\program files\embarcadero\rad studio\7.0\include\objidl.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\oleidl.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\servprov.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\urlmon.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\msxml.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propsys.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\windows.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="4070" Path="e:\program files\embarcadero\rad studio\7.0\include\autoargs.h" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysvari.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\sysvari.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\assert.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="238" Path="e:\program files\embarcadero\rad studio\7.0\include\assert.h" Guarded="0" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\autoargs.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="134" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Types.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Windows.hpp</IncludedBy>
+		</Header>
+		<Header TotalLines="4439" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Windows.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wintrust.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dde.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Classes.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Types.hpp</TLI>
+		</Header>
+		<Header TotalLines="1690" Path="e:\program files\embarcadero\rad studio\7.0\include\wintrust.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Windows.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wincrypt.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="21675" Path="e:\program files\embarcadero\rad studio\7.0\include\wincrypt.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wintrust.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\bcrypt.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ncrypt.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1284" Path="e:\program files\embarcadero\rad studio\7.0\include\bcrypt.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wincrypt.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="603" Path="e:\program files\embarcadero\rad studio\7.0\include\ncrypt.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wincrypt.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="201" Path="e:\program files\embarcadero\rad studio\7.0\include\dde.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Windows.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1754" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Messages.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Classes.hpp</IncludedBy>
+		</Header>
+		<Header TotalLines="2788" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\SysUtils.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Sysconst.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Classes.hpp</IncludedBy>
+		</Header>
+		<Header TotalLines="332" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Sysconst.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\SysUtils.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="453519" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Classes.hpp" Guarded="1" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Variants.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Typinfo.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\System.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Windows.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Messages.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Sysutils.hpp</TLI>
+		</Header>
+		<Header TotalLines="551" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Variants.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Classes.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="777" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Typinfo.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Classes.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="89129" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Controls.hpp" Guarded="1" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Multimon.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Graphics.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Menus.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Imm.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Syncobjs.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.h</IncludedBy>
+		</Header>
+		<Header TotalLines="543" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Multimon.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Controls.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\multimon.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="507" Path="e:\program files\embarcadero\rad studio\7.0\include\multimon.h" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Multimon.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="72897" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Graphics.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Controls.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Wincodec.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="71514" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Wincodec.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Graphics.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Activex.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wincodec.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="654" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Activex.hpp" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Wincodec.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oleauto.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="10570" Path="e:\program files\embarcadero\rad studio\7.0\include\oleauto.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Activex.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ole2.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="70734" Path="e:\program files\embarcadero\rad studio\7.0\include\wincodec.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Wincodec.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wtypes.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\propidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\intsafe.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="31517" Path="e:\program files\embarcadero\rad studio\7.0\include\propidl.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wincodec.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\structuredquerycondition.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\windows.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="42686" Path="e:\program files\embarcadero\rad studio\7.0\include\ocidl.h" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wincodec.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oleidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\servprov.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\urlmon.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ObjectArray.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\structuredquerycondition.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propsys.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shldisp.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\docobj.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="24953" Path="e:\program files\embarcadero\rad studio\7.0\include\oleidl.h" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\urlmon.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propsys.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\windows.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ole2.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="21208" Path="e:\program files\embarcadero\rad studio\7.0\include\servprov.h" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\urlmon.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\windows.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="137829" Path="e:\program files\embarcadero\rad studio\7.0\include\urlmon.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oleidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\servprov.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\msxml.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\windows.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="61206" Path="e:\program files\embarcadero\rad studio\7.0\include\msxml.h" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\urlmon.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="8583" Path="e:\program files\embarcadero\rad studio\7.0\include\intsafe.h" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wincodec.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="12298" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Menus.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Controls.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Contnrs.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Imglist.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Actnlist.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="370" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Contnrs.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Menus.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="11052" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Imglist.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Menus.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Commctrl.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="10847" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Commctrl.hpp" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Imglist.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\CommCtrl.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="9069" Path="e:\program files\embarcadero\rad studio\7.0\include\CommCtrl.h" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Commctrl.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\prsht.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack1.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="1037" Path="e:\program files\embarcadero\rad studio\7.0\include\prsht.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\CommCtrl.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack4.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winspool.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="341" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Actnlist.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Menus.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="76" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Imm.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Controls.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="355" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Syncobjs.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Controls.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Timespan.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="144" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Timespan.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Syncobjs.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="9077" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Forms.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Helpintfs.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Dwmapi.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\StdCtrls.hpp</IncludedBy>
+		</Header>
+		<Header TotalLines="194" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Helpintfs.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Forms.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="7266" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Dwmapi.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Forms.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Uxtheme.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dwmapi.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="1851" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Uxtheme.hpp" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Dwmapi.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\uxtheme.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="1772" Path="e:\program files\embarcadero\rad studio\7.0\include\uxtheme.h" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Uxtheme.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="5336" Path="e:\program files\embarcadero\rad studio\7.0\include\dwmapi.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Dwmapi.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wtypes.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack1.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+		</Header>
+		<Header TotalLines="317270" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Dialogs.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\basepch0.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Commdlg.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Printers.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Stdctrls.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Comctrls.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="116082" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Commdlg.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Dialogs.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Shlobj.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\commdlg.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="114654" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Shlobj.hpp" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Commdlg.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Shellapi.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Regstr.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Wininet.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Urlmon.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Objectarray.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Propsys.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="2004" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Shellapi.hpp" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Shlobj.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\shellapi.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="1788" Path="e:\program files\embarcadero\rad studio\7.0\include\shellapi.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Shellapi.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack1.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1554" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Regstr.hpp" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Shlobj.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\regstr.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="1515" Path="e:\program files\embarcadero\rad studio\7.0\include\regstr.h" Guarded="1" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Regstr.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="4274" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Wininet.hpp" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Shlobj.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wininet.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="4051" Path="e:\program files\embarcadero\rad studio\7.0\include\wininet.h" Guarded="1" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Wininet.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack4.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="172" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Urlmon.hpp" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Shlobj.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="22547" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Objectarray.hpp" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Shlobj.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ObjectArray.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="22507" Path="e:\program files\embarcadero\rad studio\7.0\include\ObjectArray.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Objectarray.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="82867" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Propsys.hpp" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Shlobj.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Structuredquerycondition.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\propsys.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="27669" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Structuredquerycondition.hpp" Guarded="1" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Propsys.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\structuredquerycondition.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="27623" Path="e:\program files\embarcadero\rad studio\7.0\include\structuredquerycondition.h" Guarded="0" Level="8">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Structuredquerycondition.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\propidl.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propsys.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="55074" Path="e:\program files\embarcadero\rad studio\7.0\include\propsys.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Propsys.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oleidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\shtypes.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\structuredquerycondition.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\propkeydef.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="8833" Path="e:\program files\embarcadero\rad studio\7.0\include\shtypes.h" Guarded="0" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propsys.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wtypes.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack1.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shlwapi.h</IncludedBy>
+		</Header>
+		<Header TotalLines="41" Path="e:\program files\embarcadero\rad studio\7.0\include\propkeydef.h" Guarded="0" Level="8">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\propsys.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="1303" Path="e:\program files\embarcadero\rad studio\7.0\include\commdlg.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Commdlg.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack1.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="4389" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Printers.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Dialogs.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Winspool.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="4239" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Winspool.hpp" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Printers.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winspool.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="4730" Path="e:\program files\embarcadero\rad studio\7.0\include\winspool.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Winspool.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\prsht.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="10864" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Stdctrls.hpp" Guarded="1" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Dialogs.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Forms.hpp</TLI>
+		</Header>
+		<Header TotalLines="30599" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Comctrls.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Dialogs.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Richedit.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Toolwin.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Extctrls.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Listactns.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\shldisp.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="1651" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Richedit.hpp" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Comctrls.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\RichEdit.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="1388" Path="e:\program files\embarcadero\rad studio\7.0\include\RichEdit.h" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Richedit.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack4.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="144" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Toolwin.hpp" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Comctrls.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="2879" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Extctrls.hpp" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Comctrls.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Graphutil.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="81" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Graphutil.hpp" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Extctrls.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="322" Path="e:\program files\embarcadero\rad studio\7.0\include\vcl\Listactns.hpp" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Comctrls.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="20381" Path="e:\program files\embarcadero\rad studio\7.0\include\shldisp.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Comctrls.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="211207" Path="e:\program files\embarcadero\rad studio\7.0\include\objbase.h" Guarded="0" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Dialogs.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdlib.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wtypes.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\guiddef.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\cguid.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\urlmon.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\propidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ole2.h</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\shlwapi.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="164" Path="e:\program files\embarcadero\rad studio\7.0\include\cguid.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="114154" Path="e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\vcl\Dialogs.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oleidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oaidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\docobj.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\shtypes.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\comcat.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\propidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\propsys.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ObjectArray.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\sherrors.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack1.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="15027" Path="e:\program files\embarcadero\rad studio\7.0\include\docobj.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ocidl.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="8089" Path="e:\program files\embarcadero\rad studio\7.0\include\comcat.h" Guarded="0" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\rpcndr.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="125" Path="e:\program files\embarcadero\rad studio\7.0\include\sherrors.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ShObjIdl.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+		</Header>
+		<Header TotalLines="1980" Path="e:\program files\embarcadero\rad studio\7.0\include\tchar.h" Guarded="1" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\osServiceWrapper.cpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_str.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\wchar.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Source Path="G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp">
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\vcl.h</TLI>
+			<TLI>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.h</TLI>
+			<TLI>G:\projects\mye_srvc_wrapper\functions.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\Psapi.h</TLI>
+		</Source>
+		<Header TotalLines="573303" Path="G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.h" Guarded="1" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</IncludedBy>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\vector</TLI>
+			<TLI>G:\projects\mye_srvc_wrapper\nIcon.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Classes.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\Controls.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\vcl\StdCtrls.hpp</TLI>
+		</Header>
+		<Header TotalLines="19666" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\vector" Guarded="1" Level="2">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.h</IncludedBy>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config_all.hpp</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/vector</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\nIcon.h</IncludedBy>
+		</Header>
+		<Header TotalLines="8358" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config_all.hpp" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\vector</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\cstddef</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\cstdlib</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/utility</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config.hpp</TLI>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\utility</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="212" Path="e:\program files\embarcadero\rad studio\7.0\include\cstddef" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config_all.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stddef.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xstddef</IncludedBy>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="193" Path="e:\program files\embarcadero\rad studio\7.0\include\stddef.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\cstddef</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="995" Path="e:\program files\embarcadero\rad studio\7.0\include\cstdlib" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config_all.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdlib.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xmemory</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="5988" Path="e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/utility" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config_all.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\iosfwd</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xremoveref</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="5741" Path="e:\program files\embarcadero\rad studio\7.0\include\dinkumware\iosfwd" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/utility</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\cstdio</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\cstring</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\cwchar</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xstddef</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="870" Path="e:\program files\embarcadero\rad studio\7.0\include\cstdio" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\iosfwd</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdio.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="840" Path="e:\program files\embarcadero\rad studio\7.0\include\stdio.h" Guarded="0" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\cstdio</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_nfile.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\strsafe.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="26" Path="e:\program files\embarcadero\rad studio\7.0\include\_nfile.h" Guarded="1" Level="8">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\stdio.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="796" Path="e:\program files\embarcadero\rad studio\7.0\include\cstring" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\iosfwd</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_str.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="3338" Path="e:\program files\embarcadero\rad studio\7.0\include\dinkumware\cwchar" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\iosfwd</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\yvals.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wchar.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1135" Path="e:\program files\embarcadero\rad studio\7.0\include\dinkumware\yvals.h" Guarded="0" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\cwchar</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdarg.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="2058" Path="e:\program files\embarcadero\rad studio\7.0\include\wchar.h" Guarded="1" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\cwchar</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\tchar.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="150" Path="e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xstddef" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\iosfwd</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\cstddef</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="30" Path="e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xremoveref" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/utility</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1970" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config.hpp" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config_all.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\cstddef</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1787" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config.hpp" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config.hpp</IncludedBy>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/user.hpp</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/select_compiler_config.hpp</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/compiler/codegear.hpp</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/select_stdlib_config.hpp</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/stdlib/dinkumware.hpp</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/select_platform_config.hpp</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/platform/win32.hpp</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/suffix.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="126" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/user.hpp" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="121" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/select_compiler_config.hpp" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="337" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/compiler/codegear.hpp" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config.hpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\errno.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="300" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/select_stdlib_config.hpp" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config.hpp</IncludedBy>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/no_tr1/utility.hpp</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="231" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/no_tr1/utility.hpp" Guarded="1" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/select_stdlib_config.hpp</IncludedBy>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\utility</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="202" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\utility" Guarded="0" Level="8">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/no_tr1/utility.hpp</IncludedBy>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/tr1/detail/config_all.hpp</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xutility</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="113" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/stdlib/dinkumware.hpp" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="92" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/select_platform_config.hpp" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="60" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/platform/win32.hpp" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="574" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config/suffix.hpp" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost/config.hpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="10318" Path="e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/vector" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\vector</IncludedBy>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\memory</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\stdexcept</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="5816" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\memory" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/vector</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/memory</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="5784" Path="e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/memory" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\memory</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xmemory</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\type_traits</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="3878" Path="e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xmemory" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/memory</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\cstdlib</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\new</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xutility</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="437" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\new" Guarded="0" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xmemory</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/new</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="401" Path="e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/new" Guarded="1" Level="8">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\new</IncludedBy>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\exception</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="255" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\exception" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/new</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/exception</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/stdexcept</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="215" Path="e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/exception" Guarded="1" Level="10">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\exception</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="2192" Path="e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xutility" Guarded="1" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xmemory</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\climits</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\utility</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="277" Path="e:\program files\embarcadero\rad studio\7.0\include\climits" Guarded="0" Level="8">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xutility</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_lim.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="258" Path="e:\program files\embarcadero\rad studio\7.0\include\_lim.h" Guarded="1" Level="9">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\climits</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="736" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\type_traits" Guarded="0" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/memory</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/type_traits</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="691" Path="e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/type_traits" Guarded="1" Level="7">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\type_traits</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stddef</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="28" Path="e:\program files\embarcadero\rad studio\7.0\include\stddef" Guarded="0" Level="8">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/type_traits</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="2201" Path="E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\stdexcept" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/vector</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/stdexcept</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="2166" Path="e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/stdexcept" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\stdexcept</IncludedBy>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\exception</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xstring</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1849" Path="e:\program files\embarcadero\rad studio\7.0\include\dinkumware\xstring" Guarded="1" Level="6">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\../include/dinkumware/stdexcept</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="424626" Path="G:\projects\mye_srvc_wrapper\nIcon.h" Guarded="1" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\nIcon.cpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\windows.h</TLI>
+			<TLI>E:\Program Files\Embarcadero\RAD Studio\8.0\include\boost_1_39\boost\tr1\tr1\vector</TLI>
+		</Header>
+		<Header TotalLines="65" Path="G:\projects\mye_srvc_wrapper\functions.h" Guarded="0" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\nIcon.cpp</IncludedBy>
+		</Header>
+		<Header TotalLines="496" Path="e:\program files\embarcadero\rad studio\7.0\include\Psapi.h" Guarded="1" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.cpp</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+		</Header>
+		<Source Path="G:\projects\mye_srvc_wrapper\functions.cpp">
+			<TLI>G:\projects\mye_srvc_wrapper\mye_srvc_wrapper.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\io.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdlib.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdio.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\time.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\string.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\tlhelp32.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\errno.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\shlwapi.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\psapi.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\strsafe.h</TLI>
+			<TLI>G:\projects\mye_srvc_wrapper\functions.h</TLI>
+		</Source>
+		<Header TotalLines="68" Path="e:\program files\embarcadero\rad studio\7.0\include\cderr.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="660" Path="e:\program files\embarcadero\rad studio\7.0\include\ddeml.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="270" Path="e:\program files\embarcadero\rad studio\7.0\include\dlgs.h" Guarded="0" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="168" Path="e:\program files\embarcadero\rad studio\7.0\include\lzexpand.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="4151" Path="e:\program files\embarcadero\rad studio\7.0\include\mmsystem.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack1.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="321" Path="e:\program files\embarcadero\rad studio\7.0\include\nb30.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="681" Path="e:\program files\embarcadero\rad studio\7.0\include\rpcasync.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\rpc.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="753" Path="e:\program files\embarcadero\rad studio\7.0\include\winperf.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="5218" Path="e:\program files\embarcadero\rad studio\7.0\include\winsock2.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\ws2def.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\qos.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="1013" Path="e:\program files\embarcadero\rad studio\7.0\include\ws2def.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winsock2.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\inaddr.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="42" Path="e:\program files\embarcadero\rad studio\7.0\include\inaddr.h" Guarded="1" Level="5">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\ws2def.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="215" Path="e:\program files\embarcadero\rad studio\7.0\include\qos.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winsock2.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="431" Path="e:\program files\embarcadero\rad studio\7.0\include\winefs.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="13728" Path="e:\program files\embarcadero\rad studio\7.0\include\winscard.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\wtypes.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winioctl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\winsmcrd.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="6636" Path="e:\program files\embarcadero\rad studio\7.0\include\winioctl.h" Guarded="0" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winscard.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack1.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="336" Path="e:\program files\embarcadero\rad studio\7.0\include\winsmcrd.h" Guarded="1" Level="4">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\winscard.h</IncludedBy>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="14175" Path="e:\program files\embarcadero\rad studio\7.0\include\ole2.h" Guarded="1" Level="3">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\windows.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</TLI>
+			<IncludedBy>e:\program files\embarcadero\rad studio\7.0\include\unknwn.h</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oleauto.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\oleidl.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+			<Reference>G:\projects\mye_srvc_wrapper\nIcon.cpp</Reference>
+		</Header>
+		<Header TotalLines="521" Path="e:\program files\embarcadero\rad studio\7.0\include\io.h" Guarded="0" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+		</Header>
+		<Header TotalLines="363" Path="e:\program files\embarcadero\rad studio\7.0\include\time.h" Guarded="0" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\_stddef.h</TLI>
+		</Header>
+		<Header TotalLines="322" Path="e:\program files\embarcadero\rad studio\7.0\include\tlhelp32.h" Guarded="1" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+		</Header>
+		<Header TotalLines="15826" Path="e:\program files\embarcadero\rad studio\7.0\include\shlwapi.h" Guarded="1" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\objbase.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\shtypes.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\pshpack8.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\poppack.h</TLI>
+		</Header>
+		<Header TotalLines="11356" Path="e:\program files\embarcadero\rad studio\7.0\include\strsafe.h" Guarded="1" Level="1">
+			<Reference>G:\projects\mye_srvc_wrapper\functions.cpp</Reference>
+			<IncludedBy>G:\projects\mye_srvc_wrapper\functions.cpp</IncludedBy>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdio.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\string.h</TLI>
+			<TLI>e:\program files\embarcadero\rad studio\7.0\include\stdarg.h</TLI>
+		</Header>
+		<Source Path="G:\projects\mye_srvc_wrapper\nIcon.cpp">
+			<TLI>G:\projects\mye_srvc_wrapper\nIcon.h</TLI>
+			<TLI>G:\projects\mye_srvc_wrapper\functions.h</TLI>
+		</Source>
+	</PchDataCache>

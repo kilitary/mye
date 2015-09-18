@@ -1,0 +1,6 @@
+00000838  tWinMAin
+00000838  initializing ....
+00000838  creating main form ...
+00000838  Form1 ready
+00000838  created initial shell
+00000838  base: \Device\HarddiskVolume1\projects\project_outs

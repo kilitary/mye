@@ -1,0 +1,42 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+#pragma link "madExcept"
+#pragma link "madLinkDisAsm"
+#include <tchar.h>
+#include "functions.h"
+#include "../mye/mye.h"
+
+HINSTANCE hInst;
+//---------------------------------------------------------------------------
+USEFORM("example.cpp", Form1);
+//---------------------------------------------------------------------------
+WINAPI _tWinMain(HINSTANCE inst, HINSTANCE, LPTSTR, int)
+{
+   hInst = inst;
+   try
+   {
+       Application->Initialize();
+       Application->MainFormOnTaskBar = true;
+       Application->CreateForm(__classid(TForm1), &Form1);
+       Application->Run();
+   }
+   catch (Exception &exception)
+   {
+       Application->ShowException(&exception);
+   }
+   catch (...)
+   {
+       try
+       {
+          throw Exception("");
+       }
+       catch (Exception &exception)
+       {
+          Application->ShowException(&exception);
+       }
+   }
+   return 0;
+}
+//---------------------------------------------------------------------------

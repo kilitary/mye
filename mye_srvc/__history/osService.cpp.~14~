@@ -1,0 +1,68 @@
+#include <SysUtils.hpp>
+#include <SvcMgr.hpp>
+#include "functions.h"
+#pragma hdrstop
+#define Application Svcmgr::Application
+USEFORM("mye_srvc.cpp", srvc); /* TService: File Type */
+//---------------------------------------------------------------------------
+WINAPI WinMain(HINSTANCE, HINSTANCE, LPSTR, int)
+{
+    HANDLE hUserToken = (HANDLE)0x1;
+
+    hUserToken = get_user_token();
+    if (hUserToken == 0)
+    {
+        deb("failed to get token");
+
+    }
+
+    int res = ImpersonateLoggedOnUser(hUserToken);
+    if (res == 0)
+    {
+        deb("ImpersonateLoggedOnUser: %s", fmterr());
+
+    } else {
+        deb("impersonate: ok");
+    }
+
+    try
+    {
+        // Windows 2003 Server requires StartServiceCtrlDispatcher to be
+        // called before CoRegisterClassObject, which can be called indirectly
+        // by Application.Initialize. TServiceApplication->DelayInitialize allows
+        // Application->Initialize to be called from TService->Main (after
+        // StartServiceCtrlDispatcher has been called).
+        //
+        // Delayed initialization of the Application object may affect
+        // events which then occur prior to initialization, such as
+        // TService->OnCreate. It is only recommended if the ServiceApplication
+        // registers a class object with OLE and is intended for use with
+        // Windows 2003 Server.
+        //
+        // Application->DelayInitialize = true;
+        //
+        if ((!Application->DelayInitialize) || (Application->Installing()))
+        {
+            Application->Initialize();
+        }
+        Application->CreateForm(__classid(Tsrvc), &srvc);
+
+         Application->Run();
+    }
+    catch(Exception &exception)
+    {
+        Sysutils::ShowException(&exception, System::ExceptAddr());
+    }
+    catch(...)
+    {
+        try
+        {
+            throw Exception("");
+        }
+        catch(Exception &exception)
+        {
+            Sysutils::ShowException(&exception, System::ExceptAddr());
+        }
+    }
+    return 0;
+}

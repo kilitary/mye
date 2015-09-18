@@ -1,0 +1,38 @@
+//---------------------------------------------------------------------------
+
+#ifndef mainH
+#define mainH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <ExtCtrls.hpp>
+
+#define WM_ONCUSTOMPAINT WM_USER+1
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+    TPaintBox *pb;
+    void __fastcall FormClick(TObject *Sender);
+    void __fastcall teditClick(TObject *Sender);
+    void __fastcall FormPaint(TObject *Sender);
+    void __fastcall pbMouseDown(TObject *Sender, TMouseButton Button, TShiftState Shift,
+          int X, int Y);
+    void __fastcall handleCustomMessage(TMessage &Message);
+private:	// User declarations
+public:		// User declarations
+    __fastcall TForm1(TComponent* Owner);
+
+     BEGIN_MESSAGE_MAP
+	MESSAGE_HANDLER(WM_ONCUSTOMPAINT, TMessage, handleCustomMessage)
+  //  MESSAGE_HANDLER(WM_PAINT, TMessage, handleCustomMessage)
+    MESSAGE_HANDLER(WM_ERASEBKGND, TMessage, handleCustomMessage)
+
+ END_MESSAGE_MAP(TForm)
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif

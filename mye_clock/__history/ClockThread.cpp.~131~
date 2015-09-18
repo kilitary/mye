@@ -1,0 +1,68 @@
+// ---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "ClockThread.h"
+#include "functions.h"
+#include "main.h"
+#include "../mye/mye.h"
+#include <windows.h>
+#include <stdlib.h>
+#include <stdio.h>
+#pragma package(smart_init)
+
+extern HWND hwnd;
+extern HDC hdc;
+extern TForm1 *Form1;
+extern HMODULE hLib;
+mye_DockWindow_api dockwindow;
+// ---------------------------------------------------------------------------
+
+// Important: Methods and properties of objects in VCL can only be
+// used in a method called using Synchronize, for example:
+//
+// Synchronize(&UpdateCaption);
+//
+// where UpdateCaption could look like:
+//
+// void __fastcall ClockThread::UpdateCaption()
+// {
+// Form1->Caption = "Updated in a thread";
+// }
+// ---------------------------------------------------------------------------
+
+__fastcall ClockThread::ClockThread(bool CreateSuspended):TThread(CreateSuspended)
+{
+    
+}
+
+void onpaint(void)
+{
+
+    SendMessage(Form1->Handle, WM_ONCUSTOMPAINT, 0, 0);
+}
+
+// ---------------------------------------------------------------------------
+void __fastcall ClockThread::Execute()
+{
+    
+
+    // ShowWindow(Application->MainFormHandle, SW_HIDE);
+    // int style = GetWindowLong(Application->MainFormHandle, GWL_EXSTYLE);
+    // style |= WS_EX_TOOLWINDOW;
+    //
+    // SetWindowLong(Application->MainFormHandle, GWL_EXSTYLE, style);
+    // ShowWindow(Application->MainFormHandle, SW_SHOW);
+
+    while (1)
+    {
+        // cnv->Lock();
+
+        // cnv->Brush->Color=clWhite;
+        // cnv->Brush->Style=bsSolid;
+
+        Sleep(1);
+    }
+}
+// ---------------------------------------------------------------------------

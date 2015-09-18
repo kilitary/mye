@@ -1,0 +1,10 @@
+object srvc: Tsrvc
+  OldCreateOrder = False
+  DisplayName = 'LoviOs Service'
+  ServiceStartName = '.\LocalSystem'
+  OnExecute = ServiceExecute
+  OnStart = ServiceStart
+  OnStop = ServiceStop
+  Height = 150
+  Width = 215
+end

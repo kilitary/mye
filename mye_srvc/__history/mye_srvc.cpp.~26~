@@ -1,0 +1,56 @@
+// ---------------------------------------------------------------------------
+#include "mye_srvc.h"
+#include "functions.h"
+#include "srvc_main.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+
+Tsrvc *srvc;
+TSrvcThread *thr;
+
+extern HANDLE hWrapProc;
+
+// ---------------------------------------------------------------------------
+__fastcall Tsrvc::Tsrvc(TComponent *Owner):TService(Owner)
+{
+
+}
+
+TServiceController __fastcall Tsrvc::GetServiceController(void)
+{
+    return(TServiceController)ServiceController;
+}
+
+void __stdcall ServiceController(unsigned CtrlCode)
+{
+    srvc->Controller(CtrlCode);
+}
+
+void __fastcall Tsrvc::ServiceStart(TService *Sender, bool &Started)
+{
+
+    thr = new TSrvcThread(false);
+
+    Started = true;
+    deb("mye service started");
+}
+// ---------------------------------------------------------------------------
+
+void __fastcall Tsrvc::ServiceStop(TService *Sender, bool &Stopped)
+{
+    thr->Terminate();
+    Stopped = true;
+
+
+}
+
+// ---------------------------------------------------------------------------
+void __fastcall Tsrvc::ServiceExecute(TService *Sender)
+{
+    while (!Terminated)
+    {
+        ServiceThread->ProcessRequests(true);
+    }
+}
+// ---------------------------------------------------------------------------

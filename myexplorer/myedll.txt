@@ -1,0 +1,1 @@
+14D0    mye.dll: mye_ClearWindows CallNamedPipe: С обоих концов канала отсутствуют процессы. (error 233)

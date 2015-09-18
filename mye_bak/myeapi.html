@@ -1,0 +1,203 @@
+<html>
+<head>
+<title>mye api docs</title>
+</head>
+<body>
+<h1>Документация для интерфейса mye.dll</h1>
+Для использования библиотеки сначала нужно подгрузить дллку через LoadLibrary() а затем установить нужные келлбеки или использовать функцию енумерации (_mye_EnumerateIcons).
+Экспортируемые функции:
+<ul>
+	<li>long  __stdcall mye_TrayAddCallback(LPVOID addr);</li>
+	<li>long  __stdcall mye_TrayModifyCallback(LPVOID addr);</li>
+	<li>long  __stdcall mye_TrayDeleteCallback(LPVOID addr);</li>
+	<li>long  __stdcall mye_TrayBalloonCallback(LPVOID addr);</li>
+	<li>long  __stdcall mye_EnumerateIcons(DWORD dwIndex, PNOTIFYICONDATAW pn);</li>
+	<li>long  __stdcall mye_ClickIcon(BYTE dwIndex);</li>
+	<li>long  __stdcall mye_DblClickIcon(BYTE dwIndex);</li>
+	<li>&nbsp;</li>
+	 <li>long  __stdcall mye_TrayOnLeftDblClick(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnRightDblClick(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnRightButtonDown(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnRightButtonUp(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnMouseMove(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnLeftButtonDown(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnLeftButtonUp(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnBalloonShown(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnBalloonTimeoutClose(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnBalloonClick(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnPopupOpen(LPVOID addr);</li>
+    <li>long  __stdcall mye_TrayOnPopupClose(LPVOID addr);</li>
+	<li>&nbsp;</li>
+	<li>int  __stdcall mye_DockWindow(HWND hwnd, int xwidth, int where);</li>
+</ul>
+<br/><h1>Детальное описание функций</h1>
+<h3>long  mye_TrayAddCallback(LPVOID addr);</h3>
+Устанавливает келлбек функцию с адресом addr на событие добавления иконки.
+<br/>Прототип келлбечной функции: <i>typedef int(WINAPI * shell_callback_api)(LPVOID p, unsigned long size);</i>.<br/> Где p - указатель на структуру типа NOTIFYICONDATAW (unicode) и size - размер пакета
+<br/>Возвращает ИД установленного келлбека.
+<h3>long  mye_TrayModifyCallback(LPVOID addr);</h3>
+Устанавливает келлбек функцию с адресом addr на событие модифицирования иконки.
+<br/>Прототип келлбечной функции: <i>typedef int(WINAPI * shell_callback_api)(LPVOID p, unsigned long size);</i>.<br/> Где p - указатель на структуру типа NOTIFYICONDATAW (unicode) и size - размер пакета
+<br/>Возвращает ИД установленного келлбека.
+<h3>long  mye_TrayDeleteCallback(LPVOID addr);</h3>
+Устанавливает келлбек функцию с адресом addr на событие удаления иконки.
+<br/>Прототип келлбечной функции: <i>typedef int(WINAPI * shell_callback_api)(LPVOID p, unsigned long size);</i>.<br/> Где p - указатель на структуру типа NOTIFYICONDATAW (unicode) и size - размер пакета
+<br/>Возвращает ИД установленного келлбека.
+<h3>long  mye_TrayBalloonCallback(LPVOID addr);</h3>
+Устанавливает келлбек функцию с адресом addr на событие создания баллона для какойнибудь иконки.
+<br/>Прототип келлбечной функции: <i>typedef int(WINAPI * shell_callback_api)(LPVOID p, unsigned long size);</i>.<br/> Где p - указатель на структуру типа NOTIFYICONDATAW (unicode) и size - размер пакета
+<br/>
+<h3>long __stdcall mye_EnumerateIcons(DWORD dwIndex, PNOTIFYICONDATAW pn);</h3>
+Перечисление всех текущих иконок.<br/>
+Параметр <b>pn</b> - ссылка на структуру типа <a href='http://msdn.microsoft.com/en-us/library/bb773352(v=vs.85).aspx'>NOTIFYICONDATAW</a> (unicode).
+Запуская функцию с начальным индексом (параметр <b>dwIndex</b>) равным 0 и увеличивая его до тех пор пока возвращённый результат функции равен MYE_SUCCESS (константа, обьявлена в mye.h).
+При достижении конца списка иконок функция возвращает MYE_NO_MORE_ITEMS.
+<br/>
+<h3>long __stdcall mye_ClickIcon(DWORD dwIndex);</h3>
+Кликнуть по иконке один раз. Параметр dwIndex - индекс иконки, полученной при перечислении.
+<br/>
+<h3>long __stdcall mye_DblClickIcon(DWORD dwIndex);</h3>
+Двойной клик по иконке. Параметр dwIndex - индекс иконки, полученной при перечислении.
+<br/>
+<h3>long  __stdcall mye_TrayOn*(LPVOID addr);</h3>
+Идентичные функции для установки евентов. Евенты вызываються при событиях иконок. <br/>
+Возвращаемый параметр - ид келлбека используемый при удалении келлбека. Удаление происходит аналогично установке, только заместо адреса передаёца ид келлбека.<br/>
+Параметр <b>addr</b> - адрес каллбек функции типа <b>int WINAPI event_func(DWORD dwIndex, PNOTIFYICONDATAW pn);</b><br/>
+Где <b>dwIndex</b> - индекс иконки используемый при перечислении и внутреннем хранении. <b>pn</b> - указатель на структуру типа <b><a href='http://msdn.microsoft.com/en-us/library/bb773352(v=vs.85).aspx'>NOTIFYICONDATAW</a></b> (unicode! TCHAR => WCHAR). <a href='http://ru.w3support.net/index.php?db=so&id=743732'>примечание 1.</a>
+
+
+<br/>
+<br/>
+<h2>Примечания</h2>
+Для удаления келлбека нужно использовать повторный аналогичный вызов функции добавления келлбека (удаление происходит по адресу аddr, поэтому на данный момент нельзя установить несколько келлбеков на одну функцию) с возвращённым первый раз параметром индекса келлбека.
+<br/><br/>
+<b>mye_TrayOnBalloonTimeoutClose </b> event вызываеться при событии клика по крестику закрытия баллона или при истечении времени показа баллона. 
+<br/>К сожалению система не различает эти два события.
+<br/>
+<h2>Примеры на С</h2>
+Пример добавления келлбека на создание иконки:<br/>
+<pre>
+/* обьявим прототипы функций */
+
+typedef long(__stdcall*mye_TrayCallback_api)(int op, LPVOID addr, long id);
+typedef long(__stdcall*mye_TrayAddCallback_api)(LPVOID addr);
+typedef long(__stdcall*mye_TrayModifyCallback_api)(LPVOID addr);
+typedef long(__stdcall*mye_TrayDeleteCallback_api)(LPVOID addr);
+typedef long(__stdcall*mye_TrayBalloonCallback_api)(LPVOID addr);
+typedef long(__stdcall*mye_EnumerateIcons_api)(DWORD dwIndex, PNOTIFYICONDATAW pn);
+
+/* обьявим переменные для хранения ссылок на процедуры библиотеки */
+mye_TrayAddCallback_api add_func;
+mye_TrayModifyCallback_api mod_func;
+mye_TrayDeleteCallback_api del_func;
+mye_TrayBalloonCallback_api bln_func;
+mye_EnumerateIcons_api enm_func;
+
+/* загружаем длл */
+HMODULE hMyeLib = LoadLibrary("mye.dll");
+    if (!hMyeLib)
+    {
+        printf("LoadLibrary(mye.dll): %s", fmterr());
+        
+    }
+    else
+        printf("hMyeLib: %x", hMyeLib);
+
+/* получаем адреса на все функции */
+    add_func = (mye_TrayAddCallback_api)GetProcAddress(hMyeLib, "_mye_TrayAddCallback@4");
+    mod_func = (mye_TrayAddCallback_api)GetProcAddress(hMyeLib, "_mye_TrayModifyCallback@4");
+    del_func = (mye_TrayAddCallback_api)GetProcAddress(hMyeLib, "_mye_TrayDeleteCallback@4");
+    bln_func = (mye_TrayAddCallback_api)GetProcAddress(hMyeLib, "_mye_TrayBalloonCallback@4");
+    enm_func = (mye_EnumerateIcons_api)GetProcAddress(hMyeLib, "_mye_EnumerateIcons@8");
+
+    printf("add_func @ 0x%x mod_func @ 0x%x del_func @ 0x%x\r\nbln_func @ 0x%x enm_func @ 0x%x", add_func, mod_func,
+        del_func, bln_func, enm_func);
+
+/* установим келлбек на добавление иконки с функцией add_callback()
+    add_id = add_func((LPVOID)add_callback);
+    printf("add_id: reference id: %d", add_id);
+    
+    ...
+    ...
+    ...
+    /* удалим келлбек */
+    add_func((LPVOID)add_id); // вызываем add_func с параметром возвращённым функцией добавления келлбека
+
+/* ==================================================================== */
+/* келлбек функция */
+int WINAPI add_callback(LPVOID p, unsigned long size)
+{
+    static unsigned long msgid = 0; // внутренний счётчик пакетов
+
+    printf("--> add_callback(0x%08x, %d) id %d", p, size, msgid++);
+
+/* создадим указатель на данные структуры */
+    NOTIFYICONDATAW *pn;
+/* загрузим в него полученный параметр p */
+    pn = (NOTIFYICONDATAW*)p;
+    
+    /* обработаем пакет */
+
+    char str[512];
+    printf("NIM_ADD tip: %s", deunicode(pn->szTip, str, sizeof(str)));
+    printf("hwnd: %x hicon: %x flags: %x uid: %d", pn->hWnd, pn->hIcon, pn->uFlags, pn->uID);
+
+/* отрисуем иконку на нашей форме */
+    if (pn->uFlags & NIF_ICON)
+    {
+        Form1->pbadd->Canvas->Lock();
+        Form1->pbadd->Canvas->FillRect(TRect(0, 0, 24, 24));
+        if (!DrawIconEx(Form1->pbadd->Canvas->Handle, 0, 0, pn->hIcon, 24, 24, 0, NULL, DI_NORMAL))
+            deb("DrawIconEx: %s", fmterr());
+        Form1->pbadd->Canvas->Unlock();
+    }
+    add_calls++;
+}
+
+<h2>Перечисление всех иконок с помощью функции _mye_EnumerateIcons()</h2>
+Пример:
+<pre>
+	NOTIFYICONDATAW pn;
+        int idx = 0, cell_idx = 0;
+
+        printf(" => enumerating icons ...");
+        long ret;
+        while ((ret = enm_func(idx, &pn)) == MYE_SUCCESS)
+        {
+            char sz1[256];
+
+            deunicode(pn.szTip, sz1, sizeof(sz1));
+            printf("       #%d cbSize: %d hicon: 0x%08x hwnd: 0x%08x calls: %u sztip: %s", idx, pn.cbSize, pn.hIcon,
+                pn.hWnd, pn.guidItem.Data1, sz1);
+           
+
+            if (pn.uFlags & NIF_ICON) // если текущее содержимое структуры содержит иконку, отрисуем её гденибудь
+            {
+                HICON th;
+
+               
+                HICON ph = pn.hIcon;
+                pn.hIcon = CopyIcon(pn.hIcon);
+                DestroyIcon(ph);
+                if (!pn.hIcon)
+                {
+                    printf("enumThread: idx: %d cell_idx: %d CopyIcon(%08x): %s", idx, cell_idx, pn.hIcon, fmterr());
+                    idx++;
+                    cell_idx++;
+                    continue;
+                }
+
+             
+/* дадим треду рисования возможность матрично получать данные об иконках */
+                Form1->grid->Objects[cell_idx][0] = (TObject*) &pn; 
+              
+                Form1->grid->RepaintCell(cell_idx, 1);
+                printf("placed on cell_idx %d", cell_idx);
+            }
+            cell_idx++;
+            idx++;
+        }
+</pre>
+</pre>
+</body>
+</html>

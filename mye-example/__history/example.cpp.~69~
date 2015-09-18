@@ -1,0 +1,134 @@
+// ---------------------------------------------------------------------------
+// #define WINVER 0x0500
+// #define _WIN32_WINNT 0x0500
+// #define WIN32_LEAN_AND_MEAN
+// #define NOCOMM
+
+// #define _WIN32_IE 0x0600
+
+#include <vcl.h>
+#include <tchar.h>
+#include <windows.h>
+#include <stdio.h>
+#pragma hdrstop
+
+#include "example.h"
+#include "functions.h"
+#include "../mye/mye.h"
+// ---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TForm1 *Form1;
+extern HINSTANCE hInst;
+
+mye_TrayCallback_api p_traycallback;
+long callback_id;
+
+int WINAPI chgFund(LPVOID p, unsigned long size)
+{
+   static unsigned long msgid = 0;
+   char* str2;
+
+   PSHELLTRAYDATA pn;
+   pn = (PSHELLTRAYDATA)p;
+   pn->nid = (NOTIFYICONDATAW*) & pn->nid;
+
+   str2=deb("--------------------------------------------------------------");
+   Form1->debMemo->Lines->Add(str2);
+   str2 = deb("msgid: %u chgFund: p:%x size:%u ntf:%d", msgid, p, size,
+      sizeof(SHELLTRAYDATA));
+   Form1->debMemo->Lines->Add(str2);
+   msgid++;
+
+   char msgstr[16];
+   switch(pn->dwMessage)
+   {
+      case NIM_ADD:
+      strcpy(msgstr, "NIM_ADD");
+      break;
+      case NIM_MODIFY:
+      strcpy(msgstr, "NIM_MODIFY");
+      break;
+      case NIM_DELETE:
+      strcpy(msgstr, "NIM_DELETE");
+      break;
+   }
+
+   char str3[1024];
+
+   str2 = deb("%s: hwnd: 0x%08X hicon: 0x%08x tip: %s", msgstr, pn->nid->hWnd,
+      pn->nid->hIcon, deunicode((char*)pn->nid->szTip, str3, sizeof(str3)));
+   Form1->debMemo->Lines->Add(str2);
+   str2 = deb("nid @ 0x%08x dwMessage: %d", &pn->nid, pn->dwMessage);
+   Form1->debMemo->Lines->Add(str2);
+   // wcscpy(pn->szTip, L"xyu");
+   // wcscpy(pn->szInfo, L"xyu2");
+   // wcscpy(pn->szInfoTitle, L"xyu3");
+
+   wchar_t str[256];
+
+   char tip[128];
+   sprintf((char*)tip, "msg %d modified by callback function #%d @ 0x%08X at %d",
+      msgid, callback_id, chgFund, time(NULL));
+   wcscpy(pn->nid->szTip, unicode(tip, str, sizeof(str)));
+
+   static TIcon *ti = NULL;
+
+   if (!ti)
+   {
+      ti = new TIcon();
+      deb("created TIcon @ 0x%08x", ti);
+   }
+
+   int rnd;
+
+   while (!(rnd = rand() % 13))
+      rnd = rand() % 13;
+
+   sprintf(tip, "Icon_%d", rnd);
+
+   ti->LoadFromResourceName((unsigned int)hInst, tip);
+   str2 = deb("load icon '%s': %x", tip, ti->Handle);
+   Form1->debMemo->Lines->Add(str2);
+   pn->nid->hIcon = ti->Handle;
+
+   if(Form1->debMemo->Lines->Count >= 1000)
+      Form1->debMemo->Clear();
+   // dump((char*) pn, size, "chgFund");
+
+}
+
+// ---------------------------------------------------------------------------
+__fastcall TForm1::TForm1(TComponent * Owner) : TForm(Owner)
+{
+   HMODULE hLib;
+
+   hLib = LoadLibrary("mye.dll");
+
+   p_traycallback = (mye_TrayCallback_api)GetProcAddress(hLib,
+      "_mye_TrayCallback@12");
+   deb("p_traycallback @ 0x%x", p_traycallback);
+   callback_id = p_traycallback(MYE_ADD_SHELL_CALLBACK, (LPVOID)chgFund, NULL);
+   deb("mye_TrayCallback add id %d", callback_id);
+}
+
+__fastcall TForm1::~TForm1(void)
+{
+   deb("mye_example TForm1 destructor");
+
+   p_traycallback(MYE_DEL_SHELL_CALLBACK, (LPVOID)chgFund, callback_id);
+}
+
+// ---------------------------------------------------------------------------
+void __fastcall TForm1::Button1Click(TObject * Sender)
+{
+   callback_id = p_traycallback(MYE_ADD_SHELL_CALLBACK, (LPVOID)chgFund, NULL);
+   deb("mye_TrayCallback add id %d", callback_id);
+}
+// ---------------------------------------------------------------------------
+
+void __fastcall TForm1::Button2Click(TObject * Sender)
+{
+   p_traycallback(MYE_DEL_SHELL_CALLBACK, (LPVOID)chgFund, callback_id);
+}
+// ---------------------------------------------------------------------------

@@ -1,0 +1,15 @@
+enum {DOCK_LEFT, DOCK_RIGHT};
+
+typedef struct dock_window
+{
+	HWND hwnd;
+	int where;
+} dock_window;
+
+
+
+#define MYEAPI  _declspec(dllexport)
+
+extern "C"  MYEAPI bool  mye_dockwindow(HWND hwnd, int where);
+
+

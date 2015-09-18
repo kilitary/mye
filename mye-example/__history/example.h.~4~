@@ -1,0 +1,44 @@
+//---------------------------------------------------------------------------
+
+#ifndef exampleH
+#define exampleH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+
+typedef struct _NOTIFYICONDATA {
+    DWORD cbSize;
+    HWND hWnd;
+    UINT uID;
+    UINT uFlags;
+    UINT uCallbackMessage;
+    HICON hIcon;
+    WCHAR szTip[128];
+    DWORD dwState;
+    DWORD dwStateMask;
+    WCHAR szInfo[256];
+    union {
+        UINT uTimeout;
+        UINT uVersion;
+    };
+    WCHAR szInfoTitle[64];
+    DWORD dwInfoFlags;
+    GUID guidItem;
+    HICON hBalloonIcon;
+} NID7, *PNID7;
+
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+private:	// User declarations
+public:		// User declarations
+   __fastcall TForm1(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+int WINAPI chgFund(LPVOID p, unsigned long size);
+#endif

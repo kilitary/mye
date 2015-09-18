@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mye_lib2", "mye_lib2.vcproj", "{DFE70A41-1DE6-4164-B407-A8834F63B136}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DFE70A41-1DE6-4164-B407-A8834F63B136}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DFE70A41-1DE6-4164-B407-A8834F63B136}.Debug|Win32.Build.0 = Debug|Win32
+		{DFE70A41-1DE6-4164-B407-A8834F63B136}.Release|Win32.ActiveCfg = Release|Win32
+		{DFE70A41-1DE6-4164-B407-A8834F63B136}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

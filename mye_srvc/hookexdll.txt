@@ -1,0 +1,1 @@
+00000780 hookex.dll: process attach 788: E:\Program Files\Embarcadero\RAD Studio\7.0\bin\bds.exe

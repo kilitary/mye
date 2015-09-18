@@ -1,0 +1,8 @@
+object srvc: Tsrvc
+  OldCreateOrder = False
+  DisplayName = 'LoviOs Service'
+  Interactive = True
+  OnStart = ServiceStart
+  Height = 150
+  Width = 215
+end

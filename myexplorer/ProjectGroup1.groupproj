@@ -1,0 +1,48 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{ECC04EDF-11C7-45F1-864C-461606832F04}</ProjectGuid>
+		</PropertyGroup>
+		<ItemGroup>
+			<Projects Include="myexplorer.cbproj">
+				<Dependencies/>
+			</Projects>
+			<Projects Include="..\tray\tray.cbproj">
+				<Dependencies/>
+			</Projects>
+		</ItemGroup>
+		<ProjectExtensions>
+			<Borland.Personality>Default.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Default.Personality/>
+			</BorlandProject>
+		</ProjectExtensions>
+		<Target Name="myexplorer">
+			<MSBuild Projects="myexplorer.cbproj"/>
+		</Target>
+		<Target Name="myexplorer:Clean">
+			<MSBuild Targets="Clean" Projects="myexplorer.cbproj"/>
+		</Target>
+		<Target Name="myexplorer:Make">
+			<MSBuild Targets="Make" Projects="myexplorer.cbproj"/>
+		</Target>
+		<Target Name="tray">
+			<MSBuild Projects="..\tray\tray.cbproj"/>
+		</Target>
+		<Target Name="tray:Clean">
+			<MSBuild Targets="Clean" Projects="..\tray\tray.cbproj"/>
+		</Target>
+		<Target Name="tray:Make">
+			<MSBuild Targets="Make" Projects="..\tray\tray.cbproj"/>
+		</Target>
+		<Target Name="Build">
+			<CallTarget Targets="myexplorer;tray"/>
+		</Target>
+		<Target Name="Clean">
+			<CallTarget Targets="myexplorer:Clean;tray:Clean"/>
+		</Target>
+		<Target Name="Make">
+			<CallTarget Targets="myexplorer:Make;tray:Make"/>
+		</Target>
+		<Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+	</Project>

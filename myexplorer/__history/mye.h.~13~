@@ -1,0 +1,13 @@
+enum {DOCK_LEFT, DOCK_RIGHT};
+
+typedef struct dock_window
+{
+	HWND hwnd;
+	int where;
+} dock_window;
+
+
+
+#define MYEAPI   __stdcall
+
+

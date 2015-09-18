@@ -1,0 +1,9 @@
+object loviossrvc: Tloviossrvc
+  OldCreateOrder = False
+  DisplayName = 'LoviOs Service'
+  OnExecute = ServiceExecute
+  OnStart = ServiceStart
+  OnStop = ServiceStop
+  Height = 150
+  Width = 215
+end
